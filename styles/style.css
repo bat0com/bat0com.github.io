@@ -1,0 +1,46 @@
+.body{
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.top{
+    background: #6c2014;
+    transition: border-radius 0.200s ease-in-out;
+    backdrop-filter: blur(20px);
+    font-size: 20px;
+    text-align: center;
+.tpad{
+    padding: 1rem;
+}
+}
+.logo{
+    bottom: px;
+    position: relative;
+    text-align: center;
+    /* display: flex; */
+    padding: 3px;
+    font-size: 30px;
+    border-radius: 500px;
+    border: 1px solid white;
+}
+.youtube {
+    background: linear-gradient(120deg, rgba(255, 123, 255, 0.39), rgba(120, 255, 120, 0.315));
+    text-align: center;
+    border: #000 0.15rem solid;
+    border-radius: 8px;
+    padding: 0.2rem;
+    transition: border-radius 0.200s ease-in-out;
+    backdrop-filter: blur(5px);
+}
+.videos {
+    transition: border-radius 0.200s ease-in-out;
+    backdrop-filter: blur(5px);
+    padding: 0.2rem;
+    background: linear-gradient(120deg, rgba(255, 123, 255, 0.39), rgba(120, 255, 120, 0.315));
+}
+.youtube:hover {
+    border-radius: 60px;
+    backdrop-filter: blur(12px);
+}
+.videos:hover {
+    border-radius: 60px;
+    backdrop-filter: blur(12px);
+}
